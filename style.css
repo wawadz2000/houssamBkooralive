@@ -1,6 +1,17 @@
 *{
 margin: 0%;
 }
+button{
+background: orange;
+color: red;
+border-radius: 10px;
+padding: 10px 3px;
+cursor: pointer;
+}
+button:hover{
+width: 100%;
+
+}
 footer{
 animation-name: focus;
 animation-duration: 5s;
@@ -40,17 +51,17 @@ cursor: pointer;
 }
 h1{
 background-position: 100%;
-//-sbackground-color: black;
 width: 100%;
 height: 100px;
 font-family: 'Aref Ruqaa', serif;
 position: fixed;
 text-align: center;
-color: orange;
+color: transparent;
 font-kerning: auto;
 animation-name: text;
 animation-duration: 5s;
 animation-iteration-count: 3;
+-webkit-text-stroke: 2px orange;
 }
 marquee{
 position: static;
